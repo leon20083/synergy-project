@@ -1,0 +1,482 @@
+@import url(../css/font.css);
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+}
+header .header__inner {
+  width: 95%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__inner .logo {
+  width: 70px;
+  height: 65px;
+}
+header .header__inner nav {
+  width: 35%;
+  height: 100%;
+}
+header .header__inner nav .header__menu {
+  font-family: "DIN";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+header .header__inner nav .header__menu .language {
+  background: url(../img/language.png) no-repeat center;
+  background-size: contain;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+header .book__btn {
+  position: relative;
+  right: 3%;
+  width: 15%;
+  height: 50%;
+  background: #5B6460;
+  padding: 16px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .book__btn a {
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+main .main__intro {
+  background: url(../img/background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+main .main__intro .intro__inner {
+  background: rgba(51, 51, 51, 0.35);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 5em 5em;
+}
+main .main__intro .intro__inner .intro__heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 72px;
+  margin-bottom: 35px;
+}
+main .main__intro .intro__inner .intro__paragraph {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-right: 7%;
+}
+main .main__intro .intro__inner .arrow__placeholder {
+  position: absolute;
+  height: 5px;
+  display: flex;
+  justify-content: space-between;
+  top: 85%;
+  right: 48%;
+  width: 7%;
+}
+main .main__intro .intro__inner .arrow__placeholder .arrow {
+  width: 33px;
+  height: 15px;
+}
+main .main__intro .intro__inner .arrow__placeholder .left__arrow {
+  transform: rotate(180deg);
+}
+main .main__cabins {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+main .main__cabins .cabins__upper {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 72%;
+  display: flex;
+  justify-content: flex-end;
+}
+main .main__cabins .cabins__upper .cabins__upper__paragraph {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2em 3.5em;
+}
+main .main__cabins .cabins__upper .cabins__upper__paragraph h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+  margin-bottom: 1.5em;
+}
+main .main__cabins .cabins__upper .cabins__upper__paragraph p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  width: 80%;
+  margin-bottom: 2em;
+}
+main .main__cabins .cabins__upper .cabins__upper__paragraph a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #5B6460;
+}
+main .main__cabins .cabins__upper .cabins__upper__paragraph a span {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 80px;
+  background: #5B6460;
+}
+main .main__cabins .cabins__upper .cabins__upper__img {
+  background: url(../img/cabins.jpg) no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+main .cabins__lower {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .cabins__lower img {
+  width: 30%;
+  height: 80%;
+}
+main .main__forest {
+  background: #E9ECE0;
+  width: 100%;
+  height: 76vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+main .main__forest .main__forest__img {
+  background: url(../img/forest.jpg) no-repeat;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: 0%;
+}
+main .main__forest .main__forest__img .forest__img__inner {
+  background: rgba(62, 68, 62, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main__forest .main__forest__img .forest__img__inner > div {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  width: 20%;
+  height: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 1em;
+  right: 3em;
+}
+main .main__forest .main__forest__img .forest__img__inner > div > div {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .main__forest .main__forest__img .forest__img__inner > div > div > div {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+main .main__forest .main__forest__paragraph {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5em 6.5em;
+}
+main .main__forest .main__forest__paragraph h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+  margin-bottom: 1.5em;
+}
+main .main__forest .main__forest__paragraph p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+  width: 80%;
+  margin-bottom: 2em;
+}
+main .main__forest .main__forest__paragraph a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #5B6460;
+}
+main .main__forest .main__forest__paragraph a span {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 80px;
+  background: #5B6460;
+}
+main .main__facilities {
+  width: 100%;
+  height: 85vh;
+  background-color: #5B6460;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  text-align: center;
+}
+main .main__facilities h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+}
+main .main__facilities .main__facilities__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 60%;
+  height: 40%;
+}
+main .main__facilities .main__facilities__inner div {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main__about__us {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+main .main__about__us .about__us__left, main .main__about__us .about__us__right {
+  background: url(../img/moreaboutus2.jpg) no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+main .main__about__us .about__us__right {
+  background: url(../img/moreaboutus1.jpg) no-repeat center;
+  width: 50%;
+  background-size: 100%;
+}
+main .main__about__us .more__about__us {
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  background-color: #E9ECE0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  top: 35%;
+  left: 45%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  background: #5B6460;
+}
+footer .footer__inner__top, footer .footer__inner__center {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+footer .footer__inner__top p, footer .footer__inner__center p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer .footer__inner__top ul, footer .footer__inner__center ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  height: 50%;
+  list-style: none;
+}
+footer .footer__inner__top ul li a, footer .footer__inner__center ul li a {
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .footer__inner__center .footer__inner__form {
+  width: 30%;
+  height: 70%;
+}
+footer .footer__inner__center .footer__inner__form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+footer .footer__inner__center .footer__inner__form form input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding-left: 0.1em;
+}
+footer .footer__inner__center .footer__inner__form form input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-left: 0.1em;
+}
+footer .footer__inner__center .footer__inner__form form input[type=button] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+  background: url(../img/foot_line.png) no-repeat;
+  width: 35px;
+  height: 20px;
+  cursor: pointer;
+}
+footer .footer__inner__center .footer__inner__form p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+footer .footer__list__pay {
+  width: 25% !important;
+  align-self: flex-start;
+}
+footer .footer__inner__bottom {
+  width: 80%;
+  height: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #EFEFEF;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */

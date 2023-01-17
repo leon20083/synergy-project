@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'DIN Light';
+        src: url('fonts/DINCondensed-Light.woff2') format('woff2'),
+            url('fonts/DINCondensed-Light.woff') format('woff'),
+            url('fonts/DINCondensed-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@300;400;600&display=swap');
